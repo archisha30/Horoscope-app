@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #0f0c29;
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', sans-serif;
+  color: white;
+}
+
+.container {
+  text-align: center;
+  padding: 40px;
+  background: rgba(255,255,255,0.05);
+  border-radius: 20px;
+  width: 90%;
+  max-width: 500px;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #f0c674;
+}
+
+select {
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1rem;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+select option {
+  background: #302b63;
+  color: white;
+}
+
+button {
+  padding: 12px 30px;
+  background: #f0c674;
+  color: #0f0c29;
+  border: none;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+.result {
+  margin-top: 30px;
+  padding: 20px;
+  background: rgba(255,255,255,0.08);
+  border-radius: 12px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.result p {
+  margin-bottom: 10px;
+}
+
+.result .horoscope-text {
+  font-size: 1rem;
+  color: #ddd;
+}
+
+.result .meta {
+  font-size: 0.85rem;
+  color: #f0c674;
+}
+
+.hidden {
+  display: none;
+}
