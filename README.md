@@ -15,3 +15,5 @@ A simple web app that shows your daily horoscope based on your zodiac sign.
 
 ## How to Run
 Just open `index.html` in your browser!
+                 OR
+Open "https://archisha30.github.io/Horoscope-app/" in your browser!
